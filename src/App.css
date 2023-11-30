@@ -1,0 +1,386 @@
+* {
+    background-color:#282828;
+}
+p, li {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #ffffff;
+}
+#comp {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid#404040;
+    position: fixed;
+}
+#van span {
+    color: #FBD438;
+}
+#glav {
+    width: 106px;
+    height: 45px;
+    border-radius: 45px;
+    background-color:#EB6829;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+#ip {
+    width: 120px;
+    height: 25px;
+    border-radius: 45px;
+    background-color:#FCE23E40;
+    border: 1px solid#FBD438;
+    color: #FBD438;
+    font-weight: bold;
+    font-size: 13px;
+}
+#comp1 {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+#butns {
+    width: 550px;
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+#by {
+    width: 250px;
+    height: 58px;
+    border-radius: 58px;
+    background-color:#FBD438;
+    border: 0px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0px 0px 22px 0px #DEA75E;
+    margin-right: 50px;
+}
+#by:hover {
+    box-shadow: 0px 0px 42px 0px #DEA75E;
+    cursor: pointer;
+}
+#ds {
+    width: 250px;
+    height: 58px;
+    border-radius: 58px;
+    background-color:#282828;
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#ds:hover {
+    background: #3a3a3a;
+    cursor: pointer;
+}
+#ds_img {
+    margin-right: 10px;
+}
+#kratko {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+#van {
+    color: #ffffff;
+    font-size: 48px;
+    width: 500px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#mnogo {
+    color: #ffffff;
+    font-size: 16px;
+    width: 678px;
+    text-align: center;
+}
+#ver {
+    color:  #CBCBCB;
+    text-align: center;
+}
+#comp2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+#proj {
+    width: 1000px;
+    height: 297px;
+    background-color:#243E38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 40px;
+    margin-bottom: 30px;
+}
+#proj_img {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    transform: scale(5);
+    background-image: url(https://bozon.site/static/img/spark.svg);
+    background-color:#243E38;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+#text1 {
+    background-color:#243E38;
+    width: 700px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#zaglav1 {
+    background-color:#243E38;
+    color: #23EDB6;
+    text-align: center;
+    font-size: 24px;
+    text-shadow: 0px 0px 33px rgba(80, 255, 207, 0.50);
+}
+#proj_text {
+    background-color:#243E38;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+}
+#meh {
+    width: 1000px;
+    height: 297px;
+    background-color:#242D3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 40px;
+    margin-bottom: 30px;
+}
+#meh_img {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    transform: scale(5);
+    background-image: url(https://bozon.site/static/img/wrench.svg);
+    background-color:#242D3E;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+#text2 {
+    background-color:#242D3E;
+    width: 700px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#zaglav2 {
+    background-color:#242D3E;
+    color: #74A4FF;
+    text-align: center;
+    font-size: 24px;
+    text-shadow: 0px 0px 33px rgba(95, 150, 255, 0.81);
+}
+#meh_text {
+    background-color:#242D3E;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+}
+#soob {
+    width: 1000px;
+    height: 297px;
+    background-color:#3E242F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 40px;
+}
+#soob_img {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    transform: scale(5);
+    background-image: url(https://bozon.site/static/img/heart.svg);
+    background-color:#3E242F;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+#text3 {
+    background-color:#3E242F;
+    width: 700px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#zaglav3 {
+    background-color:#3E242F;
+    color: #FF4F99;
+    text-align: center;
+    font-size: 24px;
+    text-shadow: 0px 0px 33px rgba(255, 79, 153, 1);
+}
+#soob_text {
+    background-color:#3E242F;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+}
+#cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#cards li {
+    font-size: 20px;
+    font-weight: 500;
+}
+#prisoed {
+    color: #FBD438;
+    text-shadow: 0px 4px 42px rgba(251, 212, 56, 0.50);
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+#prisoed {
+    font-size: 60px;
+}
+#def {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 650px;
+    border: 1px solid white;
+    border-radius: 40px;
+    margin-right: 40px;
+}
+#def_name {
+    font-size: 45px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 70px;
+}
+#price_def {
+    display: flex;
+    font-weight: 500;
+    flex-direction: row;
+}
+#r115, #r175, #r600, #r900 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#r1151, #r1751, #r6001, #r9001 {
+    font-size: 60px;
+}
+#r1152, #r1752, #r6002, #r9002 {
+    font-size: 20px;
+}
+#r1151, #r1152, #r1751, #r1752 {
+    color: #FBD438;
+}
+#tovar_def {
+    width: 380px;
+    height: 180px;
+}
+#def button {
+    width: 206px;
+    height: 55px;
+    border-radius: 55px;
+    background-color:#EB6829;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 70px;
+}
+#def button:hover {
+    box-shadow: 0px 0px 42px 0px #EB6829;
+}
+#flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 650px;
+    border: 1px solid #FBD438;
+    border-radius: 40px;
+    margin-left: 40px;
+}
+#flex_name {
+    font-size: 45px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 70px;
+    color: #FBD438;
+}
+#price_flex {
+    display: flex;
+    font-weight: 500;
+    flex-direction: row;
+}
+#tovar_flex {
+    width: 380px;
+    height: 180px;
+}
+#flex button {
+    width: 206px;
+    height: 55px;
+    border-radius: 55px;
+    background-color:#EB6829;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 70px;
+}
+#flex button:hover {
+    box-shadow: 0px 0px 42px 0px #EB6829;
+}
+#flex_img {
+    width: 80px;
+    height: 18px;
+    margin-top: 7px;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+#flex_flex {
+    display: flex;
+    flex-direction: row;
+}
+#foot {
+    width: 100%;
+    height: 70px;
+    margin-top: 130px;
+    background-color: #6A6A6A;
+}
+
+
+
+
